@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Homepage</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="sleepAnalysisSimpleHome.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="topnav">
+        <h1 id="titleSite">Sleep Analysis Charts</h1>
+    </div>
+    <div class="sidenavLeft">
+        <button type="button" id="date1">Date 1: 4/25/21</button>
+    </div>
+    <div class="sidenavRight">
+        <button type="button" id="Transposition"> Transpose Graphs</button>
+        <button type="button" id ="prediction"> Generate Prediction Graphs</button>
+        <button type="button" id="confidence"> Generate 95% Confidence Intervals</button>
+    </div>
+    <table>
+        <tr><td>
+            <h2>Temperature and Humidity Graphs</h2>
+            <p><iframe width="450" height="260" style="border: 1px solid #cccccc;" 
+            src="https://thingspeak.com/channels/1356639/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15">
+            </iframe></p>
+            <p><iframe width="450" height="260" style="border: 1px solid #cccccc;" 
+            src="https://thingspeak.com/channels/1356639/charts/2?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15">
+            </iframe></p>
+        </tr></td>
+        <tr><td>
+            <h2>Motion Value Graph</h2>
+            <iframe width="450" height="260" style="border: 1px solid #cccccc;" 
+            src="https://thingspeak.com/channels/1364067/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15">
+            </iframe>
+        </tr></td>
+    </table>
+</body>
+</html>

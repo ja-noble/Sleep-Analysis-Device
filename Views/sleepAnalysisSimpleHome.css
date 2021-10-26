@@ -1,0 +1,80 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+div.topnav {
+    overflow: hidden;
+    background-color: rgb(0, 16, 158);
+    box-shadow: 0px 3px 5px grey;
+    position: sticky;
+    z-index: 0;
+    width: 100%;
+  }
+
+div.topnav h1 {
+    text-align: center;
+}
+
+.sidenavLeft {
+    height: 1200px;
+    width: 300px;
+    position: absolute;
+    left: 0;
+    background-color: rgb(129, 129, 129);
+    box-shadow: 0px 3px 5px rgb(0, 0, 0);
+    overflow-x: hidden;
+    padding-top: 7px;
+    z-index: 0;
+    margin-left: 10px;
+  }
+
+
+.sidenavRight {
+    height: 1200px;
+    width: 300px;
+    position: absolute;
+    right: 0;
+    background-color: rgb(129, 129, 129);
+    box-shadow: 0px 3px 5px rgb(0, 0, 0);
+    overflow-x: hidden;
+    padding-top: 7px;
+    z-index: 0;
+    margin-right: 10px;
+  }
+
+body {
+    align-items: center;
+}
+
+button{
+    padding: 12px 10px 10px 16px;
+    margin-top: 20px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #000000;
+    display: block;
+    border: none;
+    background-color: white;
+    width: 100%;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    text-align: center;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2 {
+    padding-left: 525px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+iframe {
+    margin-left: 525px;
+    display: inline-flex;
+}
