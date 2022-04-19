@@ -8,7 +8,7 @@
   The above copyright notice and this permission notice shall be included in all
   copies or substantial portions of the Software.
 
- I used this guide to figure out how to make https requests with ThingSpeak for my project :) 
+ I used this guide to figure out how to make https requests with ThingSpeak for my project 
           - Jacob Noble
 */
 
